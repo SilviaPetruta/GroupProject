@@ -1,0 +1,18 @@
+/* <div>
+<img src={props.imageWizard} alt = {"channel icon"} />
+<h1>The Wizard's SQUAD</h1>
+<FaSearch />
+</div> */
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 414px;
+    height: 95px;
+}
+
+img {
+    height:10px;
+    width: 10px;
+}
+
