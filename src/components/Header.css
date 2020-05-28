@@ -1,18 +1,27 @@
-/* <div>
-<img src={props.imageWizard} alt = {"channel icon"} />
-<h1>The Wizard's SQUAD</h1>
-<FaSearch />
-</div> */
-
 header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 414px;
-    height: 95px;
+    height: 80px;
+    background-color: lightgray;
 }
 
 img {
-    height:10px;
-    width: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
 }
 
+h1 {
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 5;
+}
+
+svg {
+    font-size: 25px;
+}
