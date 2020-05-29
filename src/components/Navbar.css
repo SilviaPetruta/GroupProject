@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 414px;
+    height: 65px;
+    background-color: gainsboro;
+    border-top: 1px;
+    border-color: lightgray;
+}
+
+svg {
+    font-size: 25px;
+}
+
+p {
+    margin: 0px;
+}
+
+.home, .dms, .mentions, .you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

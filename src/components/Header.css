@@ -5,7 +5,9 @@ header {
     justify-content: space-around;
     width: 414px;
     height: 80px;
-    background-color: lightgray;
+    background-color: gainsboro;
+    border-bottom: 1px;
+    border-color: black;
 }
 
 img {

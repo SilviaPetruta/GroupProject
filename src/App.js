@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./components/Header";
 import ChannelsHome from './components/ChannelsHome';
 import DMsHome from './components/DMsHome';
+import Navbar from './components/Navbar';
 
 import imageWizard from './img/wizard.jpg';
 
@@ -57,18 +58,12 @@ class App extends Component {
 	
 	render () {
 
-		const dmsHome = this.state.inputHomeDms.map(input => {
-			return <DMsHome
-				key={input.id}
-				userOnline={input.userOn}
-			/>
-		});
-
 		return (
 			<React.Fragment>
         		<Header imageWizard = {imageWizard} />
 				<ChannelsHome channels={this.state.inputHomeChannels} />
 				<DMsHome users={this.state.inputHomeDms} />
+				<Navbar />
       		</React.Fragment>
     )
   }
