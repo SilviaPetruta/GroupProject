@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./components/Header";
 import ChannelsHome from './components/ChannelsHome';
 import DMsHome from './components/DMsHome';
+import Threads from './components/Threads';
 
 import imageWizard from './img/wizard.jpg';
 
@@ -12,7 +13,7 @@ class App extends Component {
 		inputHomeChannels: [
 			{
 				id: 1,
-				channel: 'the wizarding clan'
+				channel: 'thewizardingclan'
 			},
 			{
 				id: 2,
@@ -67,6 +68,7 @@ class App extends Component {
 		return (
 			<React.Fragment>
         		<Header imageWizard = {imageWizard} />
+				<Threads />
 				<ChannelsHome channels={this.state.inputHomeChannels} />
 				<DMsHome users={this.state.inputHomeDms} />
       		</React.Fragment>
