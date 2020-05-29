@@ -58,19 +58,13 @@ class App extends Component {
 	
 	render () {
 
-		const dmsHome = this.state.inputHomeDms.map(input => {
-			return <DMsHome
-				key={input.id}
-				userOnline={input.userOn}
-			/>
-		});
-
 		return (
 			<React.Fragment>
         		<Header imageWizard = {imageWizard} />
 				<Threads />
 				<ChannelsHome channels={this.state.inputHomeChannels} />
 				<DMsHome users={this.state.inputHomeDms} />
+				<Navbar />
       		</React.Fragment>
     )
   }
