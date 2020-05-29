@@ -1,0 +1,51 @@
+.channelsDiv, .DmsDiv  {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0;
+    width: auto;
+}
+
+h4 {
+    font-family: 'Lato-Black', sans-serif;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.iconPlus {
+    float: right;
+    font-size: 16px;
+    margin: 22px 0;
+    margin: 10px 0px;
+}
+
+.channel {
+    display: flex;
+}
+
+p {
+    margin: 6px 0;
+}
+
+.iconHashTag {
+    font-size: 16px;
+    margin: 10px 10px;
+    color: rgb(112, 111, 111);
+}
+
+.iconCircle, .iconHeart  {
+    color: rgb(95, 167, 122);
+    font-size: 12px;
+    margin: 12px 10px;
+
+}
+
+.iconEdit {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.dm {
+    display: flex;
+}

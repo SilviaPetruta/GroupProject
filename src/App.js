@@ -5,9 +5,6 @@ import Header from "./components/Header";
 import ChannelsHome from './components/ChannelsHome';
 import DMsHome from './components/DMsHome';
 
-import { FaPlus } from 'react-icons/fa';
-import { FaHeart } from 'react-icons/fa';
-import { FaEdit } from 'react-icons/fa';
 import imageWizard from './img/wizard.jpg';
 
 class App extends Component {
@@ -59,12 +56,6 @@ class App extends Component {
 	} 
 	
 	render () {
-		const channelsHome = this.state.inputHomeChannels.map(input => {
-			return <ChannelsHome
-				key={input.id}
-				channel={input.channel}
-			/>
-		});
 
 		const dmsHome = this.state.inputHomeDms.map(input => {
 			return <DMsHome
@@ -76,17 +67,8 @@ class App extends Component {
 		return (
 			<React.Fragment>
         		<Header imageWizard = {imageWizard} />
-				<div>
-                	<h2>Channels</h2>
-                	<FaPlus />
-            	</div> 
-				{channelsHome}
-				<div>
-                	<FaHeart />
-                	<p>Slackbot</p>
-            	</div>
-				{dmsHome}
-				<FaEdit />
+				<ChannelsHome channels={this.state.inputHomeChannels} />
+				<DMsHome users={this.state.inputHomeDms} />
       		</React.Fragment>
     )
   }
