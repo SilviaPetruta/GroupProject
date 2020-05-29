@@ -4,7 +4,9 @@
     padding: 0px 15px;
     margin: 0;
     width: auto;
+    word-spacing: -1px;
 }
+
 
 h4 {
     font-family: 'Lato-Black', sans-serif;
