@@ -1,0 +1,16 @@
+.JumpTo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0px 0px 10px 0px;
+    width: auto;
+}
+
+.JumpTo input {
+    margin: 10px;
+    height: 25px;
+    text-indent: 10px;
+    border-radius: 7px;
+    border: lightgrey 1px solid;
+    box-shadow: 0px 1px 3.5px lightgrey;
+}

@@ -1,25 +1,45 @@
 footer {
+    position: absolute;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     width: 414px;
     height: 65px;
-    background-color: gainsboro;
-    border-top: 1px;
-    border-color: lightgray;
+    border-top: 0.5px solid rgb(233, 233, 233);
 }
 
-svg {
-    font-size: 25px;
-}
-
-p {
-    margin: 0px;
+footer svg {
+    font-size: 22px;
 }
 
 .home, .dms, .mentions, .you {
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: white;
+    outline: none;
+    color: rgb(122, 122, 122);
+}
+
+
+
+.home > *, .dms > *, .mentions > *, .you > * {
+    pointer-events: none;
+}
+
+.home > p, .dms > p, .mentions > p, .you > p {
+    margin: 5px 0px 0px 0px;
+}
+
+.active {
+    color: rgb(52, 3, 63);
+    font-weight: bold;
 }
