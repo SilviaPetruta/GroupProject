@@ -7,7 +7,6 @@
     word-spacing: -1px;
 }
 
-
 h4 {
     font-family: 'Lato-Black', sans-serif;
     display: inline-block;
@@ -25,8 +24,9 @@ h4 {
     display: flex;
 }
 
-p {
-    margin: 6px 0;
+.channelsDiv p, .DmsDiv p {
+    margin: 5px 0;
+    height: 20px;
 }
 
 .iconHashTag {
@@ -38,14 +38,9 @@ p {
 .iconCircle, .iconHeart  {
     color: rgb(95, 167, 122);
     font-size: 12px;
-    margin: 12px 10px;
+    line-height: 16px;
+    margin: 10px 10px;
 
-}
-
-.iconEdit {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
 }
 
 .dm {

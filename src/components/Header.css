@@ -2,17 +2,19 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    width: 414px;
-    height: 80px;
-    background-color: gainsboro;
+    justify-content: space-between;
+    width: 384px;
+    height: 70px;
+    background-color: rgb(52, 3, 63);
     border-bottom: 1px;
     border-color: black;
+    padding: 0px 15px;
+    color: white;
 }
 
 img {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 15px;
 }
 
@@ -24,6 +26,6 @@ h1 {
     margin: 0px;
 }
 
-svg {
+header svg {
     font-size: 25px;
 }

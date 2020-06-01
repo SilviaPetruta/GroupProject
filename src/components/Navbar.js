@@ -5,21 +5,25 @@ import { RiWechatLine } from "react-icons/ri";
 import { GoMention } from "react-icons/go";
 import { MdTagFaces } from "react-icons/md";
 
-const Navbar = () => {
-    return(
-        <footer>
-            <div className="home">
-                <FaHome /><p>Home</p>
-            </div>
-            <div className="dms">
-                <RiWechatLine /><p>DMs</p>
-            </div>
-            <div className="mentions">
-                <GoMention /><p>Mentions</p>
-            </div>
-            <div className="you">
-                <MdTagFaces /><p>You</p>
-            </div>
+const Navbar = (props) => {
+    return (
+        <footer onClick={props.clickedBtn}>
+            <button className={`home ${props.activeBtn === 'home' ? 'active' : ''}`}>
+                <FaHome />
+                <p>Home</p>
+            </button>
+            <button className={`dms ${props.activeBtn === 'dms' ? 'active' : ''}`}>
+                <RiWechatLine />
+                <p>DMs</p>
+            </button>
+            <button className={`mentions ${props.activeBtn === 'mentions' ? 'active' : ''}`}>
+                <GoMention />
+                <p>Mentions</p>
+            </button>
+            <button className={`you ${props.activeBtn === 'you' ? 'active' : ''}`}>
+                <MdTagFaces />
+                <p>You</p>
+            </button>
         </footer>
     )
 }

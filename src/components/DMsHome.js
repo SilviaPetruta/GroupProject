@@ -3,7 +3,6 @@ import './ChannelsAndDMsHome.css';
 
 import { FaCircle } from 'react-icons/fa';
 import { FaHeart } from 'react-icons/fa';
-import { FaEdit } from 'react-icons/fa';
 import { FaPlus } from 'react-icons/fa';
 
 const DMsHome = (props) => {
@@ -27,7 +26,6 @@ const DMsHome = (props) => {
                 <p>Slackbot</p>
             </div>
             {dmsHome}
-            <FaEdit className='iconEdit' />
         </div>
     )
 }

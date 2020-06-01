@@ -6,7 +6,7 @@ const Header = (props) => {
     return(
         <header>
             <img src={props.imageWizard} alt = "channel icon" />
-            <h1>The Wizard's SQUAD</h1>
+            <h1>{props.title}</h1>
             <IoIosSearch />
         </header>
     )

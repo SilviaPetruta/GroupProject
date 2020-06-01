@@ -1,0 +1,43 @@
+.dmUser {
+    padding-top: 10px;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Lato-Black', sans-serif;
+}
+
+.dmDetailsDiv {
+    margin-left: 10px;
+    padding: 0px 0px 10px 0px;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(177, 177, 177);
+    font-size: 15px;
+}
+
+.dmMessageDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.dmMessageDetails p {
+    margin: 0px;
+}
+
+.dmMessageDetails p:last-child {
+    color: rgb(73, 73, 73);
+    font-size: 12px;
+}
+
+.dmMessage {
+    margin: 0px 15px 0px 0px;
+}
+
+.dmMessage p {
+    margin: 0px;
+    color: rgb(73, 73, 73);
+    white-space: pre-wrap;
+}

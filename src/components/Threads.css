@@ -12,19 +12,17 @@
     width: auto;
     margin: 0;
 }
-svg {
+
+.align svg {
     font-size: 16px;
-    margin: 10px 10px;
+    margin: 13px 10px;
     color: rgb(112, 111, 111);
 }
 
-input {
-    margin: 10px;
-    height: 25px;
-    text-indent: 10px;
-    border-radius: 7px;
-    border: lightgrey 1px solid;
-    box-shadow: 0px 1px 3.5px lightgrey;
+.align p {
+    margin: 10px 0px;
 }
+
+
 
 
