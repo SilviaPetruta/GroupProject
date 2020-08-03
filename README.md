@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kelseru/project">
+  <a href="https://github.com/SilviaPetruta/GroupProject">
     <img src="https://img.icons8.com/cute-clipart/96/000000/origami.png" alt="Logo" width="60" height="60">
   </a>
 
@@ -75,7 +75,3 @@ Project Link: [https://github.com/SilviaPetruta/GroupProject](https://github.com
 [contributors-url]: https://github.com/SilviaPetruta/GroupProject/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/SilviaPetruta/GroupProject
 [stars-url]: https://github.com/SilviaPetruta/GroupProject/stargazers
-[linkedin-shield1]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/
-[linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/bex-birkett
