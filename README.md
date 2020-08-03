@@ -51,8 +51,9 @@ A list of commonly used resources that we found helpful are listed in the acknow
 ## Contact
 We'd love to hear from you. 💌
 
-🧙🏻‍♀️ Silvia Petruta - 
-🎋 Rebecca Birkett - [@bex_birkett](https://twitter.com/bex_birkett) - rebeccabirkett@outlook.com
+🧙🏻‍♀️ Silvia Petruta - details here
+
+🎋 Rebecca Birkett - [LinkedIn](https://www.linkedin.com/in/bex-birkett/) [@bex_birkett](https://twitter.com/bex_birkett) - rebeccabirkett@outlook.com
 
 Project Link: [https://github.com/SilviaPetruta/GroupProject](https://github.com/SilviaPetruta/GroupProject)
 
